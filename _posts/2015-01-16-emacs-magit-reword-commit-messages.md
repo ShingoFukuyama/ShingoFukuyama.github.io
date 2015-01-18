@@ -15,7 +15,7 @@ See the above screenshot. I have 7 commits already, and then run `M-x magit-stat
 
 <img src="{{ site.baseurl }}/images/2015/01/magit2.png" width="600" height="auto">
 
-On the magit status buffer, press `ll` (alphabet `l` twice) to show the commit log buffer. I'd like to change commit message "commit 4" and "commit 5". Move the cursor to the line of "commit 4", press `E` to edit commits from the current commit to HEAD.
+On the magit status buffer, press `ll` (alphabet `l` twice) to show the commit log buffer. I'd like to change commit message "commit 4" and "commit 5". Move the cursor to the line of "commit 4", press `E` to edit commits from the current commit through HEAD.
 
 <img src="{{ site.baseurl }}/images/2015/01/magit3.png" width="600" height="auto">
 
@@ -40,4 +40,7 @@ Edit commit message as usual. Done with `C-c C-c` and the next commit message ed
 
 <img src="{{ site.baseurl }}/images/2015/01/magit6.png" width="600" height="auto">
 
-See the commit log buffer when you complete all editing, 2 commit messages changed as planned :)
+See the commit log buffer when you complete all the editings, 2 commit messages changed as planned :)
+
+
+Note: You would need to check those changes won't affect the shared repository when you push to it.
